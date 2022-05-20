@@ -1,8 +1,7 @@
 /*-----------------------------------------------------------
-* Template Name    : WESTIN - Fully Responsive Personal Template
-* Author           : Retrina Group
-* Version          : 2.0.0
-* Created          : January 2021
+* Project Name    : UX/UI Design Portfolio
+* Author           : Kristyna Brown
+* Created          : May 2022
 * File Description : Main Jquery file of the template
 *------------------------------------------------------------*/
 
@@ -57,7 +56,7 @@ $(document).ready(function () {
 
 
     //SidebarToggler
-    
+
     var $sidebarToggler = $('.sidebar-toggler');
     var $sidebar = $('.sidebar');
     var $pageContent = $('.page-content');
@@ -86,12 +85,12 @@ $(document).ready(function () {
 
 
     // Theme Option
-    
+
     $('.color-scheme li .dark-scheme').on('click', function(){
         $("body").addClass('westin-dark');
         $('.color-scheme li a').removeClass('active');
         $(this).addClass('active');
-        //Change the logo img property 
+        //Change the logo img property
         $("#logo").attr("src", 'assets/img/westin-logo-dark.png');
     });
 
@@ -99,7 +98,7 @@ $(document).ready(function () {
         $("body").removeClass('westin-dark');
         $('.color-scheme li a').removeClass('active');
         $(this).addClass('active');
-        //Change the logo img property 
+        //Change the logo img property
         $("#logo").attr("src", 'assets/img/westin-logo.png');
     });
 
@@ -163,7 +162,7 @@ $(document).ready(function () {
     $("ul.pattern .color15").on('click', function(){
         return $("#option-color-two").attr("href", "assets/css/color/golden.css"), !1
     });
-    
+
 
     //Typed Js
     var $element = $(".element");
@@ -204,9 +203,9 @@ $(document).ready(function () {
         smartSpeed: 1000,
         autoplayHoverPause: true,
     });
-    
 
-   
+
+
 
 });
 
@@ -245,7 +244,7 @@ $window.on("load", (function() {
              if (count_items > initial_items) {
                  $showMore.show();
                  $showMore.parent('.button-border').addClass('mr-2 mr-sm-4').removeClass('p-0');
-                 
+
              } else {
                  $showMore.hide();
                  $showMore.parent('.button-border').removeClass('mr-2 mr-sm-4').addClass('p-0');
@@ -343,8 +342,8 @@ $window.on('scroll', function () {
             });
         }
     }
-    
-    
+
+
 });
 
 
