@@ -922,6 +922,9 @@ canvas.particles-js-canvas-el {
   font-weight: 600;
 }
 
+.personal-item {
+  padding-left: 100px;
+}
 .about-04 .social-icon li a {
   background: #eaeaea;
   color: #010101;
