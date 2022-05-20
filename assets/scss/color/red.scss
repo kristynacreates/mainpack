@@ -41,7 +41,7 @@
     nav .nav-pills a.active {
         color: $red;
     }
-} 
+}
 //Hero-03
 .hero-03 {
     .social-icon  li a:hover{
@@ -85,7 +85,7 @@
     .timeline-contents::before {
         background-color: $red;
     }
-} 
+}
 //Services
 .services-01{
     .services-icon{
@@ -125,20 +125,6 @@
         background-color: $red;
     }
 }
-//Testimonial
-.testimonial-01{
-    .owl-dot.active span{
-        background-color: $red; 
-    }
-}
-.testimonial-02{
-    .testimonial-item::before {
-        color: $red;
-    }
-    .owl-dot.active span{
-        background-color: $red; 
-    }
-}
 //Blog
 .blog-01{
     .blog-link a:hover{
@@ -159,12 +145,6 @@
         background: $red;
     }
     .svg-inline--fa {
-        color: $red;
-    }
-}
-//contact-01
-.contact-01{
-    .item-icon {
         color: $red;
     }
 }
@@ -200,7 +180,7 @@ footer{
 //Blog Single
 .entry-meta  ul li i {
     color: $red;
-} 
+}
 .blog-single{
     .comment-author p a {
         color: $red;
@@ -226,5 +206,3 @@ footer{
         color: $red;
     }
 }
-
-  

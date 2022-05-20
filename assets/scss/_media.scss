@@ -91,25 +91,7 @@
     .skills-01 .skill-box {
         margin-top: 32px;
     }
-    //Media Of Testimonial(max-width: 991)//
-    .testimonial-01{
-        .testimonial-image {
-            width: 30%;
-            float: inherit;
-        }
-        .testimonial-content {
-            margin-left: 0;
-            float: inherit;
-            width: 100%;
-            margin-top: 16px;
-        }
-        .testimonial-comment {
-            font-size: 18px;
-        }
-        .owl-dots {
-            left: 0;
-        }
-    } 
+    
     //Media Of Blog(max-width: 991)//
     .blog-04{
         .blog-item{
@@ -227,7 +209,7 @@
             margin-bottom: 3rem;
         }
     }
-    
+
 }
 
 @media (max-width: 576px){
@@ -243,7 +225,7 @@
         .personal-discription{
             font-size: 22px;
         }
-    } 
+    }
     //Media Of About(max-width: 576)//
     .about-04 .personal-info ul li small {
         display: block;

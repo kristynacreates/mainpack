@@ -44,7 +44,7 @@
         @include portfolio-icon;
     }
 }
-  
+
 
 //portfolio-02
 .portfolio-02{
@@ -102,42 +102,7 @@
     .portfolio-icon a {
         @include portfolio-icon;
     }
-    
-}
 
-
-//portfolio-03
-.portfolio-02.bg-portfolio {
-    margin-bottom: 200px;
-    .portfolio-body {
-        margin-bottom: -110px;
-    }
-    .title-box-03{
-        color: #fff;
-        h2{
-            color: #fff;
-        }
-    }
-    .portfolio-linked-more {
-        bottom: -150px;
-        left: calc(50% - 68px);
-        position: relative;
-        display: inline-block;
-      }
-}
-
-//Portfolio-04
-.portfolio-boxes-04{
-    .portfolio-item{
-        padding: 0;
-    }
-    .portfolio-box{
-        border-radius: 0;
-        margin-top: 0;
-    }
-    .portfolio-img img{
-        border-radius: 0;
-    }
 }
 
 //PortfolioSingle
@@ -184,7 +149,4 @@
     .aside-item-portfolio ul li a {
         margin-right: 8px;
     }
-} 
-
-
-  
+}

@@ -86,21 +86,7 @@ $(document).ready(function () {
 
     // Theme Option
 
-    $('.color-scheme li .dark-scheme').on('click', function(){
-        $("body").addClass('westin-dark');
-        $('.color-scheme li a').removeClass('active');
-        $(this).addClass('active');
-        //Change the logo img property
-        $("#logo").attr("src", 'assets/img/westin-logo-dark.png');
-    });
 
-    $('.color-scheme li .light-scheme').on('click', function(){
-        $("body").removeClass('westin-dark');
-        $('.color-scheme li a').removeClass('active');
-        $(this).addClass('active');
-        //Change the logo img property
-        $("#logo").attr("src", 'assets/img/westin-logo.png');
-    });
 
     $('.theme-skin li .border-skin').on('click', function(){
         $("body").addClass('border-style-demo');
@@ -190,19 +176,6 @@ $(document).ready(function () {
             });
         });
     }
-
-    //Testimonial
-    $("#testimonial .owl-carousel").owlCarousel({
-        items: 1,
-        nav: false,
-        autoplay: false,
-        loop: true,
-        dots: true,
-        mouseDrag: true,
-        touchDrag: true,
-        smartSpeed: 1000,
-        autoplayHoverPause: true,
-    });
 
 
 

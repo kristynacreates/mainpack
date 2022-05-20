@@ -87,22 +87,6 @@ a {
   background-color: #d31d4d;
 }
 
-.services-01 .services-icon {
-  color: #d31d4d;
-}
-
-.services-02 .services-box:hover {
-  background-color: #d31d4d !important;
-}
-
-.services-02 .services-icon {
-  color: #d31d4d;
-}
-
-.services-03 .services-icon {
-  color: #d31d4d;
-}
-
 .services-04 .services-box:hover {
   background-color: #d31d4d !important;
 }
@@ -123,18 +107,6 @@ a {
   background-color: #d31d4d;
 }
 
-.testimonial-01 .owl-dot.active span {
-  background-color: #d31d4d;
-}
-
-.testimonial-02 .testimonial-item::before {
-  color: #d31d4d;
-}
-
-.testimonial-02 .owl-dot.active span {
-  background-color: #d31d4d;
-}
-
 .blog-01 .blog-link a:hover {
   color: #d31d4d;
 }
@@ -152,10 +124,6 @@ a {
 }
 
 .resume-01 .svg-inline--fa {
-  color: #d31d4d;
-}
-
-.contact-01 .item-icon {
   color: #d31d4d;
 }
 

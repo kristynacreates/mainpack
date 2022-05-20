@@ -25,32 +25,17 @@
         5.1 Counted01
         5.2 Counted02
         5.3 skills-01
-        5.4 About 01
-        5.5 About 02
-        5.6 About 03
-        5.7 About 04
+        About 04
 
-    6.Services
-        6.1 services-01
-        6.2 services-02
-        6.3 services-03
-        6.4 Services-04
+    6.Services-04
         6.Resume
 
     7.Portfolio
         7.1 Portfolio-01
         7.2  Portfolio-02
-        7.3  Portfolio-03
-        7.4 Portfolio-04
         7.5 Portolio Single
 
-    8.Testimonial
-        8.1 Testimonial-01
-        8.2  Testimonial-02
-
-    9.Contact
-        9.1 Contact-01
-        9.2 Contact-02
+    9.Contact-02
 
     10.Counted
         10.1 counted 01
@@ -80,9 +65,7 @@
         14.2 Blog-02
         14.3 Blog Pages
 
-    14.contact
-        15.1 contact-01
-        15.2 contact 02
+    14.contact 02
 
     15.Footer
         16.1 Footer
@@ -850,73 +833,6 @@ canvas.particles-js-canvas-el {
   background-color: #ffffff;
 }
 
-.about-01 .title-box h3 {
-  font-size: 36px;
-  text-transform: inherit;
-  letter-spacing: 0;
-}
-
-.about-01 .title-box h6 {
-  letter-spacing: 4px;
-}
-
-.about-01 .about-image img {
-  width: 100%;
-  border-radius: 8px;
-  padding: 4px;
-  border: 1px solid #ccc;
-}
-
-.about-02 .title-box h3 {
-  font-size: 36px;
-  text-transform: inherit;
-  letter-spacing: 0;
-}
-
-.about-02 .title-box h6 {
-  letter-spacing: 4px;
-}
-
-.about-02 .about-image img {
-  width: 100%;
-  border-radius: 8px;
-  padding: 4px;
-  border: 1px solid #ccc;
-}
-
-.about-02 .about-text {
-  margin-bottom: 24px;
-  padding-bottom: 32px;
-  border-bottom: 1px solid #ebebeb;
-}
-
-.about-02 .social-icon {
-  position: relative;
-  display: inline-block;
-}
-
-.about-02 .social-icon::before {
-  background-color: #2f2f2f;
-  content: '';
-  position: absolute;
-  top: 50%;
-  left: 0;
-  width: 80px;
-  height: 1px;
-}
-
-.about-02 .social-icon ul {
-  margin-left: 100px;
-}
-
-.about-02 .social-icon a {
-  color: #2f2f2f;
-}
-
-.about-03 .skills-01 .skill-box:not(:last-child) .skillbar {
-  margin-bottom: 67px;
-}
-
 .about-04 .personal-item h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
@@ -942,81 +858,6 @@ canvas.particles-js-canvas-el {
 
 .about-04 .personal-info ul li small {
   font-weight: 300;
-}
-
-.services-01 .services-box {
-  padding: 42px 30px;
-  margin-top: 30px;
-  transition: all 0.5s ease;
-  background-color: #ffffff;
-  border-radius: 8px;
-  text-align: left;
-}
-
-.services-01 .services-box:hover {
-  transform: translateY(-10px);
-}
-
-.services-01 .services-head {
-  margin-bottom: 16px;
-}
-
-.services-01 .services-icon {
-  font-size: 32px;
-  margin-bottom: 18px;
-}
-
-.services-02 .services-box {
-  padding: 42px 30px;
-  margin-top: 30px;
-  transition: all 0.5s ease;
-  background-color: #ffffff;
-  border-radius: 8px;
-  text-align: center;
-}
-
-.services-02 .services-box:hover {
-  color: #ffffff !important;
-  overflow: hidden;
-  border-radius: 8px;
-}
-
-.services-02 .services-box:hover .services-icon {
-  opacity: 0.2;
-  color: #ffffff;
-}
-
-.services-02 .services-box .services-head {
-  margin-bottom: 16px;
-}
-
-.services-02 .services-box .services-icon {
-  position: absolute;
-  left: calc(50% - 52px);
-  top: calc(50% - 40px);
-  opacity: 0.1;
-  font-size: 6rem;
-}
-
-.services-03 .services-box {
-  padding: 42px 30px;
-  margin-top: 30px;
-  transition: all 0.5s ease;
-  background-color: #ffffff;
-  border-radius: 8px;
-  padding: 32px 24px;
-  background-color: transparent;
-  background-color: #fff;
-}
-
-.services-03 .services-icon {
-  font-size: 32px;
-  float: left;
-  margin-top: 6px;
-}
-
-.services-03 .services-content {
-  padding-left: 48px;
 }
 
 .services-04 .services-box {
@@ -1814,30 +1655,6 @@ a {
   background-color: transparent;
 }
 
-.contact-01 .info-box {
-  margin-bottom: 3rem;
-}
-
-.contact-01 .item-icon {
-  float: left;
-  font-size: 40px;
-}
-
-.contact-01 .info-text {
-  margin-left: 3.75rem;
-}
-
-.contact-01 .info-text small {
-  font-weight: 300;
-}
-
-.contact-01 .form-control {
-  font-weight: 300;
-  border-radius: 8px;
-  border-color: transparent;
-  background-color: #f8f8f8;
-}
-
 .contact-02 {
   text-align: center;
 }
@@ -1994,16 +1811,6 @@ footer li a {
   border: 1px solid #ebebeb;
 }
 
-.border-style-demo .services-01 .services-box {
-  background-color: transparent;
-  border: 1px solid #ebebeb;
-}
-
-.border-style-demo .services-02 .services-box {
-  background-color: transparent;
-  border: 1px solid #ebebeb;
-}
-
 .border-style-demo .services-04 .services-box {
   background-color: transparent;
   border: 1px solid #ebebeb;
@@ -2019,27 +1826,12 @@ footer li a {
   border: 1px solid #ebebeb;
 }
 
-.border-style-demo .services-03 .services-box {
-  background-color: transparent;
-  border: 1px solid #ebebeb;
-}
-
-.border-style-demo .testimonial-01 .testimonial-image img {
-  padding: 4px;
-  border: 1px solid #ebebeb;
-}
-
 .border-style-demo .blog-01 .blog-item {
   background-color: transparent;
   border: 1px solid #ebebeb;
 }
 
 .border-style-demo .blog-02 .blog-item {
-  background-color: transparent;
-  border: 1px solid #ebebeb;
-}
-
-.border-style-demo .contact-01 .form-control {
   background-color: transparent;
   border: 1px solid #ebebeb;
 }
@@ -2126,22 +1918,7 @@ footer li a {
   .skills-01 .skill-box {
     margin-top: 32px;
   }
-  .testimonial-01 .testimonial-image {
-    width: 30%;
-    float: inherit;
-  }
-  .testimonial-01 .testimonial-content {
-    margin-left: 0;
-    float: inherit;
-    width: 100%;
-    margin-top: 16px;
-  }
-  .testimonial-01 .testimonial-comment {
-    font-size: 18px;
-  }
-  .testimonial-01 .owl-dots {
-    left: 0;
-  }
+
   .blog-04 .blog-item {
     display: flex;
     flex-direction: row;
@@ -2193,9 +1970,6 @@ footer li a {
 @media (max-width: 767px) {
   .hero-01 .hero-content p {
     max-width: 300px;
-  }
-  .about-01 .title-box h3 {
-    font-size: 28px;
   }
   .portfolio-01 .portfolio-item:last-child a {
     top: 0;
