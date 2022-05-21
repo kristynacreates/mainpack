@@ -21,36 +21,6 @@
     }
     .blog-link{
         margin: 16px 0 8px;
-    } 
-}
-//////////Blog-02
-.blog-02{
-    .blog-item{
-        text-align: center;
-        padding: 16px;
-        background-color: #f8f8f8;
-        border-radius: $rounded-sm;
-        margin-top: 30px;
-    }
-    .blog-time {
-        top: -23px;
-        position: relative;
-        background: #fff;
-        display: inline-block;
-        padding: 8px;
-        border-radius: 8px;
-    }
-    ul{
-        margin: 16px 0;
-    }
-    .blog-link{
-        margin: 16px 0;
-    } 
-    .image-blog img{
-        @include image-box;
-    }
-    a{
-        color: #010101;
     }
 }
 
@@ -119,14 +89,8 @@
         }
     }
 }
-.sidebar-page{
-    .blog-04{
-        .blog-box {
-            height: 36vh;
-        }
-    }
-}
-  
+
+
 
 //////////Blog Single
 .blog-page-header {
@@ -150,7 +114,7 @@
         ul li i {
             margin-right: 6px;
         }
-    } 
+    }
 }
 .blog-single{
   .single-post {

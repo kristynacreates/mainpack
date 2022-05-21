@@ -29,13 +29,7 @@ a {
   color: #d31d4d;
 }
 
-.spinner {
-  border-top-color: #d31d4d;
-}
 
-.loader .letter-animation::before {
-  color: #d31d4d;
-}
 
 .header nav a:hover {
   color: #d31d4d !important;
@@ -51,27 +45,6 @@ a {
 
 .hero-03 .social-icon li a:hover {
   color: #d31d4d;
-}
-
-.counted-box-01 .count-number {
-  color: #d31d4d;
-}
-
-.counted-box-02 .count-number {
-  color: #d31d4d;
-}
-
-.skills-01 .skillbar-bar {
-  background: #d31d4d;
-}
-
-.skills-01 .skill-bar-percent {
-  border-color: #d31d4d;
-  color: #d31d4d;
-}
-
-.skills-01 .skill-bar-percent .arrow {
-  border-color: #d31d4d;
 }
 
 .resume-01 .timeline-icon {
@@ -111,10 +84,6 @@ a {
   color: #d31d4d;
 }
 
-.blog-02 .blog-link a:hover {
-  color: #d31d4d;
-}
-
 .blog-04 .blog-link a:hover {
   color: #c71142;
 }
@@ -141,18 +110,6 @@ footer li a:hover {
 
 .return-to-top {
   background-color: #d31d4d;
-}
-
-.sidebar-toggler {
-  background-color: #d31d4d;
-}
-
-.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active {
-  color: #d31d4d !important;
-}
-
-.sidebar-page .sidebar .social-icon a:hover {
-  color: #d31d4d;
 }
 
 .entry-meta ul li i {

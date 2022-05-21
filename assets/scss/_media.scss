@@ -2,59 +2,6 @@
 @import "mixin";
 
 
-@media(max-width: 1199px){
-    //Media Of Sidebar (max-width: 1199)//
-     .sidebar-toggler{
-        display: block;
-    }
-    .sidebar-page .page-content {
-        padding-left: 0 !important;
-    }
-    .sidebar-page .sidebar {
-    width: 100%;
-    }
-    .sidebar-page .sidebar .sidebar-list {
-    text-align: center;
-    }
-    .sidebar-page .sidebar .sidebar-text {
-    text-align: center;
-    }
-    .sidebar-page .sidebar .sidebar-text p {
-    text-align: center;
-    hyphens: inherit;
-    }
-    .sidebar-page .sidebar .socials {
-    position: relative;
-    }
-    .sidebar-page .sidebar.hide {
-    left: -100%;
-    }
-    .sidebar-page .sidebar .social-icon{
-        position: relative;
-        margin: auto;
-        text-align: center;
-        bottom: 42px;
-    }
-    //Media Of Sidebar (max-width: 1199)//
-    .blog-04{
-        .blog-box{
-            font-size: 14px;
-            height: 45vh;
-        }
-        .Blog-title{
-            font-size: 18px;
-        }
-    }
-    .sidebar-page{
-        .blog-04{
-            .blog-box{
-                font-size: 14px;
-                height: 45vh;
-            }
-        }
-    }
-}
-
 @media (max-width: 991px){
      //Media Of Components(max-width: 991)//
      .title-box h3 {
@@ -83,15 +30,6 @@
     .title-box h6{
         letter-spacing: 7px;
     }
-    //Media Of Counted(max-width: 991)//
-    .counted-box-02{
-        margin-top: 24px;
-    }
-    //Media Of Skills(max-width: 991)//
-    .skills-01 .skill-box {
-        margin-top: 32px;
-    }
-    
     //Media Of Blog(max-width: 991)//
     .blog-04{
         .blog-item{
@@ -143,13 +81,6 @@
             }
         }
     }
-    .sidebar-page{
-        .blog-04{
-            .blog-box{
-                height: auto;
-            }
-        }
-    }
 }
 @media (max-width: 767px){
     //Media Of Hero(max-width: 767)//
@@ -170,15 +101,6 @@
     }
     .portfolio-02 .portfolio-filter li a {
         padding: 6px 12px;
-    }
-    .portfolio-boxes-04 {
-        .portfolio-item{
-            padding: inherit;
-            margin-top: 30px !important;
-        }
-        .portfolio-img img {
-            border-radius: $rounded-sm;
-        }
     }
      //Media Of Blog(max-width: 767)//
      .blog-04{
@@ -229,23 +151,6 @@
     //Media Of About(max-width: 576)//
     .about-04 .personal-info ul li small {
         display: block;
-    }
-    //Media Of Portfolio(max-width: 576)//
-    .portfolio-boxes-04 .portfolio-item {
-        padding: 0 15px;
-    }
-
-    //Media Of Counted(max-width: 576)//
-    .counted-box-01{
-        .count-item:not(:last-child){
-            margin-bottom: 16px;
-        }
-        .count-number {
-            font-size: 32px;
-        }
-        .count-content p {
-            font-size: 13px;
-        }
     }
     //Media Of Single Page
     .blog-single{

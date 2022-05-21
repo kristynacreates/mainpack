@@ -18,11 +18,7 @@
 
     4.Hero-03
 
-    5.About
-        5.1 Counted01
-        5.2 Counted02
-        5.3 skills-01
-        About 04
+    5.About 04
 
     6.Services-04
         6.Resume
@@ -34,32 +30,13 @@
 
     9.Contact-02
 
-    10.Counted
-        10.1 counted 01
-        10.2 counted 02
-        10.3 counted 03
-        10.4 Counted Wrapper
-        10.5 Dark / Counted
-        10.6 Media / Counted
-
     11.Portfolio
         11.1 Portfolio 01
         11.2 Portfolio 02
-        11.3 Portfolio 03
-        11.4 Portfolio Page
         11.5 Single Portfolio
-        11.6 Dark / Portfolio
 
-    12.Team
-        12.1 Team 01
-        12.2 Team 02
-        12.3 Team 03
-        12.4 Dark / Team
-        12.5 Media / Team
-
-    13.Blog
-        14.1 Blog-01
-        14.2 Blog-02
+    
+    13.Blog-01
         14.3 Blog Pages
 
     14.contact 02
@@ -76,6 +53,14 @@
 
     18.Media
 
+header-title
+
+title-txt
+title-box
+title
+title-resume
+timeline-title
+aside-title
 -----------------------------*/
 
 @import "variable/variables";
@@ -92,6 +77,5 @@
 @import "contact";
 @import "footer";
 @import "sidbar";
-@import "dark";
 @import "borderstyle";
 @import "media";

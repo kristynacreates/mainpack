@@ -23,13 +23,6 @@
     color: $red;
 }
 
-//Preloader
-.spinner {
-    border-top-color: $red;
-}
-.loader .letter-animation::before {
-    color: $red;
-}
 //Header
 .header{
     nav a:hover {
@@ -49,31 +42,6 @@
     }
 }
 
-//Counted01
-.counted-box-01{
-    .count-number {
-        color: $red;
-    }
-}
-//Counted-02{
-.counted-box-02{
-    .count-number {
-        color: $red;
-    }
-}
-//Skills-01
-.skills-01{
-    .skillbar-bar {
-        background: $red;
-    }
-    .skill-bar-percent {
-        border-color: $red;
-        color: $red;
-    }
-    .skill-bar-percent .arrow {
-        border-color: $red;
-    }
-}
 .resume-01{
     .timeline-icon {
         border: 1px solid $red;
@@ -131,11 +99,7 @@
         color: $red;
     }
 }
-.blog-02{
-    .blog-link a:hover{
-        color: $red;
-    }
-}
+
 .blog-04 .blog-link a:hover {
     color: $red-hover;
 }
@@ -167,16 +131,7 @@ footer{
 .return-to-top {
     background-color: $red;
 }
-//SideBar
-.sidebar-toggler {
-    background-color: $red;
-}
-.sidebar-list .list-group-item:hover, .sidebar-list .list-group-item.active  {
-    color: $red !important;
-}
-.sidebar-page .sidebar .social-icon a:hover{
-    color: $red;
-}
+
 //Blog Single
 .entry-meta  ul li i {
     color: $red;

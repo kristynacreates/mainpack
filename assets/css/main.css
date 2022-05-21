@@ -21,11 +21,7 @@
         4.2. Hero-02
         4.3. Hero-03
 
-    5.About
-        5.1 Counted01
-        5.2 Counted02
-        5.3 skills-01
-        About 04
+    5.About 04
 
     6.Services-04
         6.Resume
@@ -36,14 +32,6 @@
         7.5 Portolio Single
 
     9.Contact-02
-
-    10.Counted
-        10.1 counted 01
-        10.2 counted 02
-        10.3 counted 03
-        10.4 Counted Wrapper
-        10.5 Dark / Counted
-        10.6 Media / Counted
 
     11.Portfolio
         11.1 Portfolio 01
@@ -60,9 +48,7 @@
         12.4 Dark / Team
         12.5 Media / Team
 
-    13.Blog
-        14.1 Blog-01
-        14.2 Blog-02
+    13.Blog-01
         14.3 Blog Pages
 
     14.contact 02
@@ -80,109 +66,7 @@
     18.Media
 
 -----------------------------*/
-.preloader {
-  position: fixed;
-  background: #ffffff;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  cursor: default;
-  z-index: 10000;
-}
 
-.spinner {
-  height: 5rem;
-  width: 5rem;
-  margin-bottom: 4rem;
-  border: 4px solid #ebebeb;
-  border-radius: 50%;
-  animation: spinner 1s linear infinite;
-}
-
-.loader {
-  font-family: "Poppins", sans-serif;
-  font-size: 3rem;
-  font-weight: 500;
-}
-
-.loader .letter-animation {
-  position: relative;
-  color: #edeff1;
-}
-
-.loader .letter-animation::before {
-  position: absolute;
-  content: attr(data-text);
-  top: -3px;
-  left: 0;
-  opacity: 0;
-  transform: rotateY(-90deg);
-  animation: letter-animation 4s infinite;
-}
-
-.loader .letter-animation:nth-child(2):before {
-  animation-delay: 0.2s;
-}
-
-.loader .letter-animation:nth-child(3):before {
-  animation-delay: 0.4s;
-}
-
-.loader .letter-animation:nth-child(4):before {
-  animation-delay: 0.6s;
-}
-
-.loader .letter-animation:nth-child(5):before {
-  animation-delay: 0.8s;
-}
-
-.loader .letter-animation:nth-child(6):before {
-  animation-delay: 1s;
-}
-
-.loader .letter-animation:nth-child(7):before {
-  animation-delay: 1.2s;
-}
-
-.loader .letter-animation:nth-child(8):before {
-  animation-delay: 1.4s;
-}
-
-.loader .letter-animation:nth-child(9):before {
-  animation-delay: 1.6s;
-}
-
-.loader .letter-animation:nth-child(10):before {
-  animation-delay: 1.8s;
-}
-
-@keyframes spinner {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes letter-animation {
-  0%,
-  75%,
-  100% {
-    opacity: 0;
-    transform: rotateY(-90deg);
-  }
-  25%,
-  50% {
-    opacity: 1;
-    transform: rotateY(0deg);
-  }
-}
 
 .color-switcher .color-pallet {
   background-color: #fff;
@@ -330,10 +214,6 @@
   color: #fff;
 }
 
-.color-scheme li a.dark-scheme:hover, .color-scheme li a.dark-scheme.active {
-  background-color: #2c2d30;
-  color: #fff;
-}
 
 .theme-skin-title {
   margin: 0;
@@ -718,121 +598,6 @@ canvas.particles-js-canvas-el {
   z-index: 1;
 }
 
-.counted-box-01 .count-number {
-  font-size: 38px;
-  font-weight: 600;
-}
-
-.counted-box-01 .count-content p {
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.counted-box-02 .count-content {
-  padding: 24px;
-  background-color: #eaeaea;
-  margin-bottom: 30px;
-  border-radius: 8px;
-}
-
-.counted-box-02 .count-content p {
-  font-weight: 500;
-  font-size: 18px;
-}
-
-.counted-box-02 .count-number {
-  font-size: 42px;
-  font-weight: 600;
-}
-
-.skills-01 .title-box h3 {
-  font-size: 36px;
-  text-transform: inherit;
-  letter-spacing: 0;
-}
-
-.skills-01 .title-box h6 {
-  letter-spacing: 4px;
-}
-
-.skills-01 #skills {
-  padding-top: 40px;
-}
-
-.skills-01 .skillbar {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 3px;
-  transition: 0.1s linear;
-  background: #eee;
-}
-
-.skills-01 .skill-box:not(:last-child) .skillbar {
-  margin-bottom: 77px;
-}
-
-.skills-01 .skillbar-title {
-  position: absolute;
-  top: -28px;
-  left: -17px;
-  font-weight: 600;
-  font-size: 14px;
-}
-
-.skills-01 .skillbar-title span {
-  margin-left: 18px;
-}
-
-.skills-01 .skillbar-bar {
-  height: 3px;
-  width: 0;
-  float: left;
-}
-
-.skills-01 .skill-bar-percent {
-  height: 32px;
-  margin-top: -41px;
-  position: absolute;
-  right: calc(100% - 40px);
-  width: 46px;
-  z-index: 10;
-  border-radius: 4px;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 31px;
-  top: 50%;
-  text-align: center;
-  border: 1px solid;
-}
-
-.skills-01 .skill-box:first-child .skill-bar-percent {
-  right: calc(10% - 21px);
-}
-
-.skills-01 .skill-box:nth-child(2) .skill-bar-percent {
-  right: calc(15% - 21px);
-}
-
-.skills-01 .skill-box:nth-child(3) .skill-bar-percent {
-  right: calc(25% - 21px);
-}
-
-.skills-01 .skill-box:nth-child(4) .skill-bar-percent {
-  right: calc(40% - 21px);
-}
-
-.skills-01 .skill-bar-percent .arrow {
-  display: inline-block;
-  padding: 4px;
-  transform: translateY(33.5px) rotate(45deg) skew(3deg, 3deg) translateX(-27px);
-  bottom: 8px;
-  position: absolute;
-  border: 1px solid;
-  border-width: 0 1px 1px 0;
-  background-color: #ffffff;
-}
-
 .about-04 .personal-item h2 {
   font-family: "Roboto Condensed", sans-serif;
   font-weight: 600;
@@ -1117,19 +882,6 @@ canvas.particles-js-canvas-el {
   display: inline-block;
 }
 
-.portfolio-boxes-04 .portfolio-item {
-  padding: 0;
-}
-
-.portfolio-boxes-04 .portfolio-box {
-  border-radius: 0;
-  margin-top: 0;
-}
-
-.portfolio-boxes-04 .portfolio-img img {
-  border-radius: 0;
-}
-
 .single-portfolio .entry-image img {
   width: 100%;
   border-radius: 8px;
@@ -1213,39 +965,6 @@ a {
   margin: 16px 0 8px;
 }
 
-.blog-02 .blog-item {
-  text-align: center;
-  padding: 16px;
-  background-color: #f8f8f8;
-  border-radius: 8px;
-  margin-top: 30px;
-}
-
-.blog-02 .blog-time {
-  top: -23px;
-  position: relative;
-  background: #fff;
-  display: inline-block;
-  padding: 8px;
-  border-radius: 8px;
-}
-
-.blog-02 ul {
-  margin: 16px 0;
-}
-
-.blog-02 .blog-link {
-  margin: 16px 0;
-}
-
-.blog-02 .image-blog img {
-  width: 100%;
-  border-radius: 8px;
-}
-
-.blog-02 a {
-  color: #010101;
-}
 
 .blog-04 .blog-item {
   display: flex;
@@ -1330,10 +1049,6 @@ a {
 
 .blog-04 .col-md-12.col-lg-4:nth-child(3) .blog-box {
   border-bottom-right-radius: 8px;
-}
-
-.sidebar-page .blog-04 .blog-box {
-  height: 36vh;
 }
 
 .blog-page-header {
@@ -1717,106 +1432,12 @@ footer li a {
   padding-left: 0;
 }
 
-.sidebar-page section {
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.sidebar-page .sidebar {
-  position: fixed;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  width: 250px;
-  height: 100vh;
-  transition: all 0.5s ease;
-  z-index: 1030;
-  box-shadow: 0 3px 8px 0 rgba(15, 15, 20, 0.2);
-  background-color: #fff;
-}
-
-.sidebar-page .sidebar .sidebar-text p {
-  text-align: justify;
-  hyphens: auto;
-}
-
-.sidebar-page .sidebar .sidebar-list {
-  min-height: 65%;
-  display: flex;
-  flex-direction: column;
-  text-align: left;
-}
-
-.sidebar-page .sidebar .sidebar-list .list-group-item {
-  padding: 0.75rem 0;
-  margin: 0;
-  border: none;
-  background-color: transparent !important;
-  text-transform: uppercase;
-  color: #010101;
-}
-
-.sidebar-page .sidebar .westin-logo {
-  margin-bottom: 1rem;
-}
-
-.sidebar-page .sidebar .westin-logo img {
-  width: 70%;
-  display: block;
-  margin: 0 auto;
-  max-width: 200px !important;
-}
-
-.sidebar-page .sidebar .social-icon {
-  position: absolute;
-  bottom: 0;
-}
-
-.sidebar-page .sidebar .social-icon a {
-  font-size: 16px;
-  padding: 5px;
-  color: #010101;
-}
-
-.sidebar-page .sidebar .sidebar.hide {
-  left: -250px;
-}
-
-.sidebar-toggler {
-  display: none;
-  position: absolute;
-  top: 91px;
-  right: 0;
-  z-index: 1000;
-  transition: all 0.3s ease;
-  width: 38px;
-  height: 38px;
-  line-height: 38px;
-  text-align: center;
-  border-radius: 8px 0 0 8px;
-  color: #fff;
-}
-
-.sidebar-toggler:hover {
-  color: #fff;
-}
-
-.sidebar-toggler.move {
-  right: -38px;
-  border-radius: 0 8px 8px 0;
-}
-
 .border-style-demo .about-04 .social-icon li a {
   background-color: transparent;
   border: 1px solid #ebebeb;
 }
 
 .border-style-demo .services-04 .services-box {
-  background-color: transparent;
-  border: 1px solid #ebebeb;
-}
-
-.border-style-demo .counted-box-02 .count-content {
   background-color: transparent;
   border: 1px solid #ebebeb;
 }
@@ -1831,48 +1452,13 @@ footer li a {
   border: 1px solid #ebebeb;
 }
 
-.border-style-demo .blog-02 .blog-item {
-  background-color: transparent;
-  border: 1px solid #ebebeb;
-}
-
 .border-style-demo .contact-02 .form-control {
   background-color: transparent;
   border: 1px solid #ebebeb;
 }
 
 @media (max-width: 1199px) {
-  .sidebar-toggler {
-    display: block;
-  }
-  .sidebar-page .page-content {
-    padding-left: 0 !important;
-  }
-  .sidebar-page .sidebar {
-    width: 100%;
-  }
-  .sidebar-page .sidebar .sidebar-list {
-    text-align: center;
-  }
-  .sidebar-page .sidebar .sidebar-text {
-    text-align: center;
-  }
-  .sidebar-page .sidebar .sidebar-text p {
-    text-align: center;
-    hyphens: inherit;
-  }
-  .sidebar-page .sidebar .socials {
-    position: relative;
-  }
-  .sidebar-page .sidebar.hide {
-    left: -100%;
-  }
-  .sidebar-page .sidebar .social-icon {
-    position: relative;
-    margin: auto;
-    text-align: center;
-    bottom: 42px;
-  }
+
   .blog-04 .blog-box {
     font-size: 14px;
     height: 45vh;
@@ -1880,10 +1466,7 @@ footer li a {
   .blog-04 .Blog-title {
     font-size: 18px;
   }
-  .sidebar-page .blog-04 .blog-box {
-    font-size: 14px;
-    height: 45vh;
-  }
+
 }
 
 @media (max-width: 991px) {
@@ -1912,13 +1495,6 @@ footer li a {
   .title-box h6 {
     letter-spacing: 7px;
   }
-  .counted-box-02 {
-    margin-top: 24px;
-  }
-  .skills-01 .skill-box {
-    margin-top: 32px;
-  }
-
   .blog-04 .blog-item {
     display: flex;
     flex-direction: row;
@@ -1962,9 +1538,6 @@ footer li a {
   .blog-04 .col-md-12.col-lg-4:nth-child(3) .blog-box {
     border-bottom-right-radius: 8px;
   }
-  .sidebar-page .blog-04 .blog-box {
-    height: auto;
-  }
 }
 
 @media (max-width: 767px) {
@@ -1976,13 +1549,6 @@ footer li a {
   }
   .portfolio-02 .portfolio-filter li a {
     padding: 6px 12px;
-  }
-  .portfolio-boxes-04 .portfolio-item {
-    padding: inherit;
-    margin-top: 30px !important;
-  }
-  .portfolio-boxes-04 .portfolio-img img {
-    border-radius: 8px;
   }
   .blog-04 .col-lg-4 {
     padding: 0 15px;
@@ -2023,18 +1589,6 @@ footer li a {
   }
   .about-04 .personal-info ul li small {
     display: block;
-  }
-  .portfolio-boxes-04 .portfolio-item {
-    padding: 0 15px;
-  }
-  .counted-box-01 .count-item:not(:last-child) {
-    margin-bottom: 16px;
-  }
-  .counted-box-01 .count-number {
-    font-size: 32px;
-  }
-  .counted-box-01 .count-content p {
-    font-size: 13px;
   }
   .blog-single .children {
     margin-left: 0 !important;
