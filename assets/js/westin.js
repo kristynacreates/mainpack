@@ -136,12 +136,7 @@ $(document).ready(function () {
     $("ul.pattern .color12").on('click', function(){
         return $("#option-color").attr("href", "assets/css/color/mono.css"), !1
     });
-    $("#color-switcher .pallet-button").on('click', function(){
-        return $("#color-switcher .color-pallet").toggleClass('show'), !1
-    })
-    $("ul.pattern .color13").on('click', function(){
-        return $("#option-color-two").attr("href", "assets/css/color/pink.css"), !1
-    });
+    
     $("ul.pattern .color14").on('click', function(){
         return $("#option-color-two").attr("href", "assets/css/color/sky-blue.css"), !1
     });
